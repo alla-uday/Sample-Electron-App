@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import * as FullStory from '@fullstory/browser';
+
+FullStory.init({ orgId: '<Replace with your OrgID>' });
 
 ReactDOM.render(
   <React.StrictMode>
